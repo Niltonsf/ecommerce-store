@@ -4,6 +4,7 @@ import './globals.css'
 import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import ModalProvider from '@/providers/modal-provider'
+import ToastProvider from '@/providers/toast-provider'
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -32,6 +33,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ModalProvider />
+        <ToastProvider />
         <Navbar />
         {children}
         <Footer />

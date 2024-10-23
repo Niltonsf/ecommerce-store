@@ -10,9 +10,8 @@ A modern, scalable e-commerce platform built with [React, Node.js]. This store p
     - [Installation](#installation)
 4. [Configuration](#configuration)
 5. [Running the Project](#running-the-project)
-6. [Deployment](#deployment)
-7. [Contributing](#contributing)
-8. [License](#license)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 ---
 
